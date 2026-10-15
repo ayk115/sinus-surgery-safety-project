@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Scratch scripts
+scratch_*.py
+
+# Large binary 3D point clouds and meshes (>50MB)
+*.ply
+
+# Large raw and processed video files
+videos/
+*.mp4
