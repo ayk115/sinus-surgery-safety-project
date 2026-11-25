@@ -7,13 +7,18 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .ipynb_checkpoints/
+.vscode/
 
-# Scratch scripts
+# Virtual environments
+.venv/
+
+# Scratch scripts and directories
 scratch_*.py
+scratch/
 
 # Large binary 3D point clouds and meshes (>50MB)
 *.ply
 
-# Large raw and processed video files
-videos/
+# Large raw and processed dataset / video files
+dataset/
 *.mp4
